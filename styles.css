@@ -17,13 +17,21 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 75px;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
+    display:flex;
     gap: 20px;
+}
+
+.form-control{
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 nav ul li a {
@@ -54,7 +62,7 @@ nav ul li a {
 
 .form-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .form-group input, .form-group select {
